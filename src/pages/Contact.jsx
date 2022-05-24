@@ -21,46 +21,49 @@ export default function Contact() {
         <h2 className="mb-5">Contact Me</h2>
 
         <form onSubmit={handleFormSubmit}>
-          <div class="mb-3">
-            <label for="name" class="form-label">
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label">
               Name
             </label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="name"
               name="name"
               onChange={({ target }) => setName(target.value)}
+              value={name}
             />
           </div>
 
-          <div class="mb-3">
-            <label for="email" class="form-label">
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label">
               Email address
             </label>
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="email"
               name="email"
               aria-describedby="emailHelp"
               onChange={({ target }) => setEmail(target.value)}
+              value={email}
             />
           </div>
 
-          <div class="mb-3">
-            <label for="message" class="form-label">
+          <div className="mb-3">
+            <label htmlFor="message" className="form-label">
               Message
             </label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="message"
               name="message"
               rows="3"
               onChange={({ target }) => setMessage(target.value)}
+              value={message}
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>

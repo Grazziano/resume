@@ -64,7 +64,7 @@ export default function About() {
             href="curriculo_resume.pdf"
             rel="noreferrer"
           >
-            <i class="fa-solid fa-file"></i>
+            <i className="fa-solid fa-file"></i>
           </a>
         </div>
       </div>
