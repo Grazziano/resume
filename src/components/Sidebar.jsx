@@ -35,11 +35,11 @@ export default function Header() {
               About
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#experience">
               Experience
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#education">
               Education
@@ -55,11 +55,11 @@ export default function Header() {
               Interests
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#awards">
               Awards
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

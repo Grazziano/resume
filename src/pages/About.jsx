@@ -58,6 +58,14 @@ export default function About() {
           >
             <i className="fab fa-facebook-f"></i>
           </a>
+          <a
+            className="social-icon"
+            target="_blank"
+            href="curriculo_resume.pdf"
+            rel="noreferrer"
+          >
+            <i class="fa-solid fa-file"></i>
+          </a>
         </div>
       </div>
     </section>

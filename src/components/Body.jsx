@@ -1,8 +1,8 @@
 import React from 'react';
 import About from '../pages/About';
-import Awards from '../pages/Awards';
+// import Awards from '../pages/Awards';
 import Education from '../pages/Education';
-import Experience from '../pages/Experience';
+// import Experience from '../pages/Experience';
 import Interests from '../pages/Interests';
 import Skills from '../pages/Skills';
 
@@ -13,7 +13,7 @@ export default function Body() {
       <About />
       <hr className="m-0" />
       {/* Experience */}
-      <Experience />
+      {/* <Experience /> */}
       <hr className="m-0" />
       {/* Education */}
       <Education />
@@ -25,7 +25,7 @@ export default function Body() {
       <Interests />
       <hr className="m-0" />
       {/* Awards */}
-      <Awards />
+      {/* <Awards /> */}
     </div>
   );
 }

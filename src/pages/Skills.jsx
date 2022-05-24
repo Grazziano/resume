@@ -16,16 +16,16 @@ export default function Skills() {
           <li className="list-inline-item">
             <i className="fab fa-js-square"></i>
           </li>
-          <li className="list-inline-item">
+          {/* <li className="list-inline-item">
             <i className="fab fa-angular"></i>
-          </li>
+          </li> */}
           <li className="list-inline-item">
             <i className="fab fa-react"></i>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-node-js"></i>
           </li>
-          <li className="list-inline-item">
+          {/* <li className="list-inline-item">
             <i className="fab fa-sass"></i>
           </li>
           <li className="list-inline-item">
@@ -42,9 +42,9 @@ export default function Skills() {
           </li>
           <li className="list-inline-item">
             <i className="fab fa-npm"></i>
-          </li>
+          </li> */}
         </ul>
-        <div className="subheading mb-3">Workflow</div>
+        {/* <div className="subheading mb-3">Workflow</div>
         <ul className="fa-ul mb-0">
           <li>
             <span className="fa-li">
@@ -70,7 +70,7 @@ export default function Skills() {
             </span>
             Agile Development & Scrum
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   );
