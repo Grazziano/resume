@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../pages/About';
+import Contact from '../pages/Contact';
 // import Awards from '../pages/Awards';
 import Education from '../pages/Education';
 // import Experience from '../pages/Experience';
@@ -26,6 +27,7 @@ export default function Body() {
       <hr className="m-0" />
       {/* Awards */}
       {/* <Awards /> */}
+      <Contact />
     </div>
   );
 }

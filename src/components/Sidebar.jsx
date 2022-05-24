@@ -60,6 +60,11 @@ export default function Header() {
               Awards
             </a>
           </li> */}
+          <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="#contact">
+              Contact Me
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
